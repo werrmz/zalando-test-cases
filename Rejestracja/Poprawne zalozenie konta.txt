@@ -1,0 +1,10 @@
+Wymagania: Chrome Wersja 76.0 
+Opis: Celem testu jest weryfikacja poprawności założenia konta w serwisie Zalando. Użytkownik wypełnia pola formularza danymi spełniającymi reguły walidacji.
+Warunki wstępne: Tworzone konto nie istnieje w systemie. Użytkownik znajduje się na stronie głównej serwisu i nie jest zalogowany.
+
+| Nr | Kroki do wykonania                                                                                                                                     | Oczekiwany rezultat                                                                               |
+| 1  | Użytkownik najeżdża kursorem na przycisk "Zaloguj się" w prawym górnym rogu, a następnie wybiera link z napisem "Jesteś nowym klientem? Przejdź dalej" | Użytkownik zostaje przeniesiony na stronę rejestracji zawierającą formularz rejestracyjny         |
+| 2  | Użytkownik wypełnia obowiązkowe pola formularza: "Imię lub firma", "Nazwisko lub firma cd.", "Adres e-mail", "Hasło" oraz wybiera płeć                 | Wszystkie pola zostają wypełnione poprawnymi danymi                                               |
+| 3  | Użytkownik wybiera przycisk "Zarejestruj się"                                                                                                          | System rejestruje nowego uzytkownika i przenosi go na stronę głowną jako zalogowanego uzytkownika |
+
+Warunek końcowy: Użytkownik założył konto.
