@@ -4,7 +4,7 @@ Warunki wstępne: Użytkownik posiada aktywne konto, znajduje się na stronie g�
 
 | Nr | Kroki do wykonania                                                     | Oczekiwany rezultat                                                                                        |
 | 1  | Użytkownik wybiera przycisk "Zaloguj się"                              | System wyświetla stronę logowania. Formularz zawiera pola: "Adres e-mail", "Hasło", przycisk "Zaloguj się" |
-| 2  | Użytkownik wypełnia pola "Adres e-mail" oraz "Hasło" poprawnymi danymi | Formularz zawiera poprawnie wypełmione pola                                                                |
+| 2  | Użytkownik wypełnia pola "Adres e-mail" oraz "Hasło" poprawnymi danymi | Formularz zawiera poprawnie wypełnione pola                                                                |
 | 3  | Użytkownik wybiera przycisk "Zaloguj się"                              | Użytkownik został poprawnie zalogowany do seriwsu                                                          |
 
 Warunek końcowy: Poprawne zalogowanie do serwisu.
